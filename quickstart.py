@@ -1,7 +1,7 @@
 import streamlit as st
 from langchain.llms import OpenAI
 
-st.title(' This is a Quickstart App')
+st.title('🦜🔗 Quickstart App')
 
 st.markdown('''
 
