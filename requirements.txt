@@ -6,3 +6,4 @@ chromadb
 pysqlite3-binary
 pandas
 tabulate
+replicate
