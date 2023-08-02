@@ -7,6 +7,9 @@ from langchain.agents.agent_types import AgentType
 # Page title
 st.set_page_config(page_title='🦜🔗 Ask the Data App')
 st.title('🦜🔗 Ask the Data App')
+st.markdown('''
+Application built in `Python` + `Streamlit` + `GitHub` + `LangChain` + `OpenAI` by [Abdullahi M. Cadceed](https://twitter.com/@abdullahcadceed)
+''')
 
 
 # Load CSV file
