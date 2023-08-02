@@ -5,10 +5,7 @@ st.set_page_config(page_title="🦜🔗 Quickstart App")
 st.title('🦜🔗 Quickstart App')
 
 st.markdown('''
-
-Application built in `Python` + `Streamlit` + `GitHub` + `LangChain` by [Abdullahi M. Cadceed](https://twitter.com/@abdullahcadceed)
-
-
+Application built in `Python` + `Streamlit` + `GitHub` + `LangChain` + `OpenAI` by [Abdullahi M. Cadceed](https://twitter.com/@abdullahcadceed)
 ''')
 
 openai_api_key = st.sidebar.text_input('OpenAI API Key')
