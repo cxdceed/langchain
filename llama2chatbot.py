@@ -4,7 +4,10 @@ import os
 
 # App title
 st.set_page_config(page_title="🦙💬 Llama 2 Chatbot")
-
+st.title('🦙💬 Llama 2 Chatbot App')
+st.markdown('''
+Application built by [Abdullahi M. Cadceed](https://twitter.com/@abdullahcadceed)
+''')
 
 # Replicate Credentials
 with st.sidebar:
