@@ -3,4 +3,4 @@ openai
 langchain
 tiktoken
 chromadb
-sqlite3
+sqlite3 >= 3.35.0.
