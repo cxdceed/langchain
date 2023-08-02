@@ -5,9 +5,7 @@ from langchain import PromptTemplate
 st.set_page_config(page_title="🦜🔗 Blog Outline Generator App")
 st.title('🦜🔗 Blog Outline Generator App')
 st.markdown('''
-
 Application built in `Python` + `Streamlit` + `GitHub` + `LangChain` + `OpenAI` by [Abdullahi M. Cadceed](https://twitter.com/@abdullahcadceed)
-
 ''')
 
 openai_api_key = st.sidebar.text_input('OpenAI API Key', type='password')
