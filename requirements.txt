@@ -4,3 +4,5 @@ langchain
 tiktoken
 chromadb
 pysqlite3-binary
+pandas
+tabulate
