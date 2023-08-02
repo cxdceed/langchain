@@ -19,7 +19,9 @@ def generate_response(txt):
 # Page title
 st.set_page_config(page_title='🦜🔗 Text Summarization App')
 st.title('🦜🔗 Text Summarization App')
-
+st.markdown('''
+Application built in `Python` + `Streamlit` + `GitHub` + `LangChain` + `OpenAI` by [Abdullahi M. Cadceed](https://twitter.com/@abdullahcadceed)
+''')
 
 # Text input
 txt_input = st.text_area('Enter your text', '', height=200)
