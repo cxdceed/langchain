@@ -2,5 +2,5 @@ streamlit
 openai
 langchain
 tiktoken
-chromedb
-pysqlite3
+chromadb
+pysqlite3-binary
