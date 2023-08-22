@@ -11,7 +11,7 @@ DB_FAISS_PATH = 'vectorstore/db_faiss'
 
 # App title
 st.set_page_config(page_title="🦙🦜👨‍💻 Chat with CSV using Llama2")
-st.title('🦙🦜👨‍💻 Chat with CSV using Llama2')
+st.title('🦙🦜👨‍💻 Chat with Your CSV Dataset using Llama2')
 st.markdown('''
 Application built by [Abdullahi M. Cadceed](https://twitter.com/@abdullahcadceed)
 ''')
@@ -60,7 +60,7 @@ if uploaded_file :
         st.session_state['generated'] = ["Hello ! Ask me anything about " + uploaded_file.name + " 🤗"]
 
     if 'past' not in st.session_state:
-        st.session_state['past'] = ["Hey ! 👋"]
+        st.session_state['past'] = ["Hey! 👋"]
         
     #container for the chat history
     response_container = st.container()
