@@ -8,3 +8,4 @@ pandas
 tabulate
 replicate
 jsonschema
+django-environ
