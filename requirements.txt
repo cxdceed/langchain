@@ -9,3 +9,10 @@ tabulate
 replicate
 pandasai
 python-dotenv
+pypdf
+torch
+accelerate
+bitsandbytes
+transformers
+sentence_transformers
+faiss_cpu
